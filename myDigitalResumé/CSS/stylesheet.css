@@ -98,6 +98,10 @@ a:visited {
   
 } */
 
+
+
+
+
 /* Responsive Web Design Challenge 8  */
 
 @media screen and (max-width:400px) {
@@ -141,7 +145,7 @@ a:visited {
   .sidebar {
   width: auto;  
   padding: 0%;
-  font-size: 3vw;
+  font-size: 2vw;
   height: 100px;
   }
 
