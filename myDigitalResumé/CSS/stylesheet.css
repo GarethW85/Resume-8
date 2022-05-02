@@ -91,9 +91,66 @@ a:visited {
 
 /* Picture element challenge */
 
-.bg-image {
+/* .bg-image {
   background:url(../Images/alternateimage.jpeg);
   background-repeat: no-repeat;
   background-color: #fbe0c3;
+  
+} */
+
+/* Responsive Web Design Challenge 8  */
+
+@media screen and (max-width:400px) {
+  /* device window smaller than 400px */
+
+  .body-container {
+    display: flex;  
+  }
+
+  .main {
+    flex-direction: column;  
+  }
+
+  .sidebar {
+  width: auto;  
+  padding: 0%;
+  }
+
+  .nav-menu {
+    text-align: center;
+  }
+
+  h2, h3, p {
+  text-align: center;
+  }
+
 }
 
+
+@media screen and (max-width:750px) {
+  /* device window smaller than 750px */
+
+  .body-container {
+    display: flex;  
+  }
+
+  .main {
+    flex-direction: column;  
+  }
+
+  .sidebar {
+  width: auto;  
+  padding: 0%;
+  font-size: 3vw;
+  height: 100px;
+  }
+
+  .nav-menu {
+    text-align: center;
+  }
+
+  h2, h3, p {
+  text-align: center;
+  }
+
+}
