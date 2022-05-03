@@ -102,6 +102,7 @@ a:visited {
 
 
 
+
 /* Responsive Web Design Challenge 8  */
 
 @media screen and (max-width:400px) {
@@ -122,20 +123,24 @@ a:visited {
 
   .nav-menu {
     text-align: center;
+    font-size: 20px;
   }
 
   h2, h3, p {
   text-align: center;
   }
 
+  #menu {
+    font-size: 20px;
+  }
 }
 
 
-@media screen and (max-width:750px) {
-  /* device window smaller than 750px */
+@media only screen and (min-width : 401px) and (max-width : 768px) {
+  /* device window larger thatn 401px and smaller than 768px */ 
 
   .body-container {
-    display: flex;  
+    display: flex; 
   }
 
   .main {
@@ -151,6 +156,7 @@ a:visited {
 
   .nav-menu {
     text-align: center;
+    font-size: 20px;
   }
 
   h2, h3, p {
@@ -158,3 +164,11 @@ a:visited {
   }
 
 }
+
+
+/* 
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  nav-link {
+    overflow-x: scroll;
+  }
+} */
